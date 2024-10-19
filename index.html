@@ -9,15 +9,6 @@
             padding: 0;
             height: 100%;
             overflow: hidden;
-            background-color: black; /* Set background color to black */
-        }
-        .iframe-container {
-            width: calc(100% - 20px); /* Adjust width for border */
-            height: calc(100% - 20px); /* Adjust height for border */
-            border: 10px solid black; /* Thick black border */
-            position: absolute; /* Positioning to center the iframe */
-            top: 10px; /* Offset for top border */
-            left: 10px; /* Offset for left border */
         }
         iframe {
             width: 100%;
@@ -25,10 +16,15 @@
             border: none;
         }
     </style>
+        <style>
+body {
+  background: #000000;
+  padding: 20px;
+  font-family: Helvetica;
+}
+</style>
 </head>
 <body>
-    <div class="iframe-container">
-        <iframe src="https://embed.su/embed/movie/823464" allowfullscreen></iframe>
-    </div>
+    <iframe src="https://embed.su/embed/movie/823464" allowfullscreen></iframe>
 </body>
 </html>
